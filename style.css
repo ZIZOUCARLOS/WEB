@@ -1,0 +1,100 @@
+
+/* selector {
+propiedad : valor ;
+} */
+
+p{
+    font-size: 12px ;
+    color: gray;
+}
+h1{
+    text-align: center;
+    color:navy;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+.recuadro{
+    background-color: navy;
+    color: white;
+}
+.div a:hover{
+    
+    color: blue;
+}
+/********************************************************** Selectores basicos de ccs **************************************************************/
+.CONTENEDOR{
+    color: aqua;
+}
+
+.p claseprincipal{
+color: gray;
+}
+
+.div claseprincipal{
+color: brown;
+}
+#contacto{
+  color: navy;  
+}
+.becerro:hover{
+    color: blue;
+}
+/* Selector universal
+*{
+
+} */
+
+
+/******************************************************** ESTILOS TIPOGRAFICOS ************************************************************/
+/* FONT-SIZE DIFINE EL TAMAÑO DEL TEXTO, es una de las pocas propiedades que se heredan */
+h2{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    font-size: 1.5em;
+}
+.columna1{
+width: 70%;
+}
+.columna2{
+width: 30%;
+}
+.divprincipal{
+    background-color: blue;
+    min-height: 500px;
+    width:50px;
+    padding: 50px;
+}
+/* border se utiliza para darle borde a las cajas */
+/* borde radius se utiliza para darle o redondiar los bordes de un caja */
+/* box-shadow se utiliza para darle sombra a la caja */
+.caja{
+border-width: 5px;
+border-style: solid ;
+border-color: blue;
+border-radius: 50px;
+box-shadow: 5px 5pz 10 px black;
+
+}
+/* Fondo e imagenes con background */
+.caja{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-image:  url(imagenes/minion.webp);
+}
+/* WEB font se utiliza para la tipografia de tu web */
+/* @ ruse se utiliza para dar intrucciones especiales a tu hoja de estilos */
+
+
+/* unidades en ccs, px/em */
+/* px pequeños puntos que se ven en nustras pantallas */
+/* **********************em es una unidad relativa al font size heredaro en el contenido, tamaño de texto *************************/
+/* unidad de medida porcentual % */
+/**************** grosor de texto : font-weight peso tipografico para la escritura ****************/
+/**************************** estilo para la tipografia ************************/
+/* fon-style para darle estilo al texto */
+/* text-decoration para darle decoracion a la tipografia, none para que no tenga decoracion, line-through para tachar el texto, underline para subrayar */
+/* // intelineado distancia entre los reglones de un texto con line-height,  */
